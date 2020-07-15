@@ -1,9 +1,98 @@
 /* RESPONSIVIDADE*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+
+    /* HEADER */
+
+    header .container{
+        align-items: unset;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        
+        display: inline-block;
+        position: relative;
+        text-align: right;
+    }
+
+    #chk{
+        display: none;
+    }
+
+    #menu{
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background-image: url(../img/open-menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: relative;
+        left: -40px; /*Armengo feio, porém visualmente aceitável*/
+    }
+
+    .mobile .menu{
+        list-style: none;
+        position: absolute;
+        right: 0;
+        opacity: 0;
+        z-index: -1;
+        transition: all 0.4s;
+        text-align: center;
+    }
+
+    .mobile .menu li{
+        width: 120px;
+        background-color: rgb(240,240,240);
+        border-bottom: 1px solid rgb(100,100,100,0.7);
+        margin: 3px 0;
+    }
+
+    #chk:checked ~ .menu{
+        opacity: 1;
+        z-index: 1;
+    }
 
     /* BANNER */
 
+    .img-banner{
+        height: 40vw;
+        background-image: url(../img/bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media screen and (max-width: 768px){
+
+        /* BANNER */
+
+        .banner .container{
+            flex-wrap: wrap;
+        }
+
+        .text-banner{
+            width: 100%;
+        }
+    
+        .img-banner{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 375px){
+
+        /* HEADER */
+
+        .logo{
+            width: 125px;
+            height: 60px;
+        }
+        
+    }
     
     
 }

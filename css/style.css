@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.clear{
+    clear: both;
+}
+
 /* HEADER */
 
 header{
@@ -36,16 +40,20 @@ header .container{
     height: 100%;
 }
 
-.menu{
+.mobile{
+    display: none;
+}
+
+.desktop .menu{
     display: flex;
     list-style: none;
 }
 
-.menu li{
+.desktop .menu li{
     padding: 0 15px;
 }
 
-.menu li:last-of-type{
+.desktop .menu li:last-of-type{
     padding-right: 0;
 }
 
@@ -69,11 +77,80 @@ header .container{
 
 .banner{
     width: 100%;
-    height: 70vw;
-    background-color: #010207;
+    background-color: #00030c;
+}
+
+.banner .container{
+    display: flex;
+    max-width: 1920px;
+    align-items: center;
+}
+
+.text-banner{
+    width: 30%;
+    text-align: center;
+}
+
+.text-box{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 8px;
+    background-image: url(../img/box-text.png);
+    background-size: 100% 100%;
+}
+
+.text-box:nth-of-type(2){
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 8px;
+    background-image: url(../img/box-text.png);
+    background-size: 100% 100%;
+}
+
+.text-box:nth-of-type(3){
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 8px;
+    background-image: url(../img/box-text.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+.text-box h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.text-box-white h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.img-banner{
+    width: 70%;
+    height: 30vw;
     background-image: url(../img/bg.jpg);
-    background-size: contain;
-    background-position: right bottom;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
 
