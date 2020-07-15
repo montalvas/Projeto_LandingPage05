@@ -1,5 +1,25 @@
 /* RESPONSIVIDADE*/
 
+@media screen and (max-width: 1280px){
+    /* BANNER */
+
+    .text-box{
+        left: 20%;
+    }
+    
+    .text-box:nth-of-type(2){
+        left: calc(20% - 10px);
+    }
+    
+    .text-box:nth-of-type(3){
+        left: calc(20% - 20px);
+    }
+
+    .text-box-white{
+        left: calc(20% - 30px);
+    }
+}
+
 @media screen and (max-width: 1024px){
 
     /* HEADER */
@@ -58,6 +78,34 @@
     }
 
     /* BANNER */
+
+    .text-box{
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .text-box:nth-of-type(2){
+        width: 140px;
+    }
+    
+    .text-box:nth-of-type(3){
+        width: 120px;
+    }
+    
+    .text-box-white{
+        width: 220px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .text-box h2{
+        font-size: 24px;
+    }
+    
+    .text-box-white h2{
+        font-size: 18px;
+    }
 
     .img-banner{
         height: 40vw;

@@ -88,60 +88,62 @@ header .container{
 
 .text-banner{
     width: 30%;
-    text-align: center;
 }
 
 .text-box{
-    display: inline-block;
-    width: 250px;
+    width: 300px;
     height: 50px;
     line-height: 50px;
     margin-bottom: 8px;
+    text-align: center;
     background-image: url(../img/box-text.png);
     background-size: 100% 100%;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
 }
 
 .text-box:nth-of-type(2){
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 8px;
-    background-image: url(../img/box-text.png);
-    background-size: 100% 100%;
+    width: 220px;
+    left: calc(40% - 10px);
 }
 
 .text-box:nth-of-type(3){
-    width: 180px;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 8px;
-    background-image: url(../img/box-text.png);
-    background-size: 100% 100%;
+    width: 200px;
+    left: calc(40% - 20px);
 }
 
-
-
-
-
-
-
+.text-box-white{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-image: url(../img/box-white-text.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: calc(40% - 30px);
+    cursor: pointer;
+}
 
 .text-box h2{
     color: white;
-    text-transform: uppercase;
-    font-size: 25px;
     font-weight: normal;
     font-style: italic;
+    text-transform: uppercase;
+    font-size: 28px;
+    background-image: url(../img/box-text.png);
+    background-size: 100% 100%;
 }
 
 .text-box-white h2{
     color: black;
-    text-transform: uppercase;
-    font-size: 20px;
     font-weight: normal;
     font-style: italic;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-image: url(../img/box-white-text.png);
+    background-size: 100% 100%;
 }
-
 
 .img-banner{
     width: 70%;
