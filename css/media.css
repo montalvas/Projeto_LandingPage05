@@ -4,19 +4,31 @@
     /* BANNER */
 
     .text-box{
+        width: 220px;
         left: 20%;
     }
     
     .text-box:nth-of-type(2){
+        width: 160px;
         left: calc(20% - 10px);
     }
     
     .text-box:nth-of-type(3){
+        width: 140px;
         left: calc(20% - 20px);
     }
 
     .text-box-white{
+        width: 220px;
         left: calc(20% - 30px);
+    }
+
+    .text-box h2{
+        font-size: 26px;
+    }
+
+    .text-box-white h2{
+        font-size: 20px;
     }
 }
 
@@ -79,6 +91,10 @@
 
     /* BANNER */
 
+    .text-banner{
+        width: 20%;
+    }
+
     .text-box{
         width: 200px;
         height: 40px;
@@ -94,7 +110,7 @@
     }
     
     .text-box-white{
-        width: 220px;
+        width: 200px;
         height: 30px;
         line-height: 30px;
     }
@@ -104,10 +120,11 @@
     }
     
     .text-box-white h2{
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .img-banner{
+        width: 80%;
         height: 40vw;
         background-image: url(../img/bg.jpg);
         background-size: cover;
@@ -119,15 +136,50 @@
         /* BANNER */
 
         .banner .container{
+            padding: 50px 0;
             flex-wrap: wrap;
+            align-items: unset;
         }
 
         .text-banner{
             width: 100%;
         }
-    
+
+        .text-box{
+            width: 150px;
+            height: 30px;
+            line-height: 30px;
+            left: 0;
+        }
+
+        .text-box:nth-of-type(2){
+            width: 90px;
+            left: 0;
+        }
+        
+        .text-box:nth-of-type(3){
+            width: 70px;
+            left: 0;
+        }
+
+        .text-box-white{
+            width: 180px;
+            height: 30px;
+            line-height: 30px;
+            left: 0; 
+        }
+
+        .text-box h2{
+            font-size: 20px;
+        }
+        
+        .text-box-white h2{
+            font-size: 15px;
+        }
+
         .img-banner{
             width: 100%;
+            background-size: cover;
         }
     }
 
