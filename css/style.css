@@ -70,88 +70,49 @@ header .container{
 }
 
 .menu li a:hover{
-    font-size: 21px;
+    font-size: 22px;
 }
 
 /* BANNER */
 
 .banner{
     width: 100%;
-    background-color: #00030c;
+    padding: 30px 0;
+    background-color: rgb(1,1,8);
 }
 
 .banner .container{
+    background-image: url(../img/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vw;
+    max-height: 600px;
     display: flex;
-    max-width: 1920px;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.text-banner{
-    width: 30%;
-}
-
-.text-box{
-    width: 300px;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 8px;
-    text-align: center;
-    background-image: url(../img/box-text.png);
-    background-size: 100% 100%;
-    position: relative;
-    left: 40%;
-    cursor: pointer;
-}
-
-.text-box:nth-of-type(2){
-    width: 220px;
-    left: calc(40% - 10px);
-}
-
-.text-box:nth-of-type(3){
-    width: 200px;
-    left: calc(40% - 20px);
-}
-
-.text-box-white{
-    width: 300px;
+.box-text{
+    width: 234px;
     height: 40px;
     line-height: 40px;
-    text-align: center;
-    background-image: url(../img/box-white-text.png);
+    margin: 0 5px;
+    background-image: url(../img/box-text.png);
     background-size: 100% 100%;
-    position: relative;
-    left: calc(40% - 30px);
-    cursor: pointer;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: inline-block;
 }
 
-.text-box h2{
+.box-text h2{
+    font-size: 24px;
     color: white;
     font-weight: normal;
     font-style: italic;
     text-transform: uppercase;
-    font-size: 28px;
-    background-image: url(../img/box-text.png);
-    background-size: 100% 100%;
+    cursor: pointer;
 }
 
-.text-box-white h2{
-    color: black;
-    font-weight: normal;
-    font-style: italic;
-    text-transform: uppercase;
-    font-size: 22px;
-    background-image: url(../img/box-white-text.png);
-    background-size: 100% 100%;
-}
-
-.img-banner{
-    width: 70%;
-    height: 30vw;
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 
