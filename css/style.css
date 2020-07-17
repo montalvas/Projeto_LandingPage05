@@ -121,11 +121,11 @@ header .container{
 
 .spotlight .container{
     text-align: center;
+    max-width: 1000px;
 }
 
 .titulo{
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
     position: relative;
 }
@@ -147,6 +147,52 @@ header .container{
     top: -20px;
     padding: 0 20px;
 }
+
+.car-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-single{
+    width: 33.3%;
+}
+
+.car-single .car-img{
+    width: 100%;
+    padding-top: 75%;
+    background-image: url(../img/carro1.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+
+.car-single:nth-of-type(2) .car-img{
+    background-image: url(../img/carro2.jpg);
+}
+
+.car-single:nth-of-type(3) .car-img{
+    background-image: url(../img/carro3.jpg);
+    background-size: cover;
+}
+
+.info h2{
+    font-size: 22px;
+}
+
+.info p{
+    color: rgb(100,100,100);
+    padding-bottom: 20px;
+}
+
+.info a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(230, 16, 16);
+    border-bottom: 2px solid rgb(134, 24, 24);
+    padding: 5px 10px; 
+    color: white;
+}
+
+
 
 
 
