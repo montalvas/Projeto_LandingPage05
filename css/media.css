@@ -77,6 +77,12 @@
         font-size: 21px;
     }
 
+    /* DEPOIMENT */
+
+    .depoiment{
+        padding: 0 10px 0 30px;
+    }
+
     
 
     @media screen and (max-width: 768px){
@@ -104,8 +110,79 @@
 
         /* SPOTLIGHT */
 
+        .car-section{
+            justify-content: center;
+        }
+
+        .car-single{
+            width: 80%;
+            margin-bottom: 30px;
+        }
+
         .titulo h2{
             font-size: 24px;
+        }
+
+        /* STAND */
+
+        .stand{
+            padding: 0;
+            background-image: none;
+        }
+
+        .stand .container{
+            display: flex;
+            flex-direction: column;
+            align-items: none;
+        }
+
+        .services{
+            background-color: #242424;
+            width: 100%;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .services h2{
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .services ul{
+            margin-bottom: 30px;
+            margin-left: 0;
+        }
+
+        .services li{
+            font-size: 16px;
+        }
+
+        .services li:hover{
+            font-size: 17px;
+        }
+
+        .depoiment{
+            background-color: #eb2d2d;
+            width: 100%;
+            padding: 30px 50px;
+            position: relative;
+        }
+
+        .depoiment h2{
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .dep1 p, .dep2 p, .dep3 p{
+            font-size: 16px;
+            margin: 0 0 30px 0;
+        }
+        
+        .dep1 span, .dep2 span, .dep3 span{
+            font-size: 16px;
+            padding-right: 0;
         }
 
     }
@@ -153,6 +230,23 @@
             padding: 0 10px;
         }
 
+        .car-section{
+            padding: 0 10px;
+        }
+
+        .car-single{
+            width: 100%;
+        }
+
+        /* DEPOIMENT */
+
+        .depoiment{
+            padding: 30px 20px;
+        }
+
+        .dep1 span, .dep2 span, .dep3 span{
+            font-size: 14px;
+        }
         
     }
     
