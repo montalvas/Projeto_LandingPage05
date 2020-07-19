@@ -1,9 +1,5 @@
 /* RESPONSIVIDADE*/
 
-@media screen and (max-width: 1280px){
-    
-}
-
 @media screen and (max-width: 1024px){
 
     /* HEADER */
@@ -68,13 +64,13 @@
     /* BANNER */
 
     .box-text{
-        width: 157px;
-        height: 30px;
-        line-height: 30px;
+        width: 195px;
+        height: 35px;
+        line-height: 35px;
     }
 
     .box-text h2{
-        font-size: 21px;
+        font-size: 20px;
     }
 
     /* DEPOIMENT */
@@ -98,7 +94,7 @@
         }
         
         .box-text{
-            width: 139px;
+            width: 157px;
             height: 30px;
             line-height: 30px;
             margin: 10px 0;
@@ -188,28 +184,20 @@
         /* CONTACT */
 
         .contact form{
-            padding: 20px 0;
-        }
-
-        .field input, .field textarea{
-            width: 90%;
-            max-width: 600px;
+            padding: 20px;
         }
 
         .field:nth-of-type(2){
             display: block;
         }
 
-        .field:nth-of-type(2) input:nth-child(1){
-            width: 90%;
-            max-width: 600px;
-            margin-bottom: 10px;
-            margin-right: 0;
+        .field:nth-of-type(2) input{
+            width: 100%;
         }
 
-        .field:nth-of-type(2) input:nth-child(2){
-            width: 90%;
-            max-width: 600px;
+        .field:nth-of-type(2) input:nth-child(1){
+            margin-bottom: 10px;
+            margin-right: 0;
         }
 
         /* FOOTER */
@@ -248,6 +236,10 @@
 
         /* HEADER */
 
+        header{
+            margin-bottom: 0;
+        }
+
         .logo{
             width: 125px;
             height: 60px;
@@ -270,7 +262,7 @@
         }
 
         .box-text{
-            width: 135px;
+            width: 139px;
             height: 25px;
             line-height: 25px;
             margin: 10px 0;
@@ -281,6 +273,10 @@
         }
 
         /* SPOTLIGHT */
+
+        .spotlight{
+            padding: 50px 0 20px 0;
+        }
 
         .titulo h2{
             font-size: 20px;
@@ -302,6 +298,16 @@
         }
 
         .dep1 span, .dep2 span, .dep3 span{
+            font-size: 14px;
+        }
+
+        /* CONTACT */
+
+        .contact{
+            padding: 50px 0 20px 0;
+        }
+
+        .field input, .field textarea{
             font-size: 14px;
         }
         
