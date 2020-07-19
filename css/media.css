@@ -187,21 +187,32 @@
 
         /* CONTACT */
 
+        .contact form{
+            padding: 20px 0;
+        }
+
         .field input, .field textarea{
             width: 90%;
             max-width: 600px;
+        }
+
+        .field:nth-of-type(2){
+            display: block;
         }
 
         .field:nth-of-type(2) input:nth-child(1){
             width: 90%;
             max-width: 600px;
             margin-bottom: 10px;
+            margin-right: 0;
         }
 
         .field:nth-of-type(2) input:nth-child(2){
             width: 90%;
             max-width: 600px;
         }
+
+        /* FOOTER */
         
 
     }
