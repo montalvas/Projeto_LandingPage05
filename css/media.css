@@ -185,6 +185,25 @@
             padding-right: 0;
         }
 
+        /* CONTACT */
+
+        .field input, .field textarea{
+            width: 90%;
+            max-width: 600px;
+        }
+
+        .field:nth-of-type(2) input:nth-child(1){
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 10px;
+        }
+
+        .field:nth-of-type(2) input:nth-child(2){
+            width: 90%;
+            max-width: 600px;
+        }
+        
+
     }
 
     @media screen and (max-width: 425px){
