@@ -151,7 +151,7 @@
         }
 
         .services ul{
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             margin-left: 0;
         }
 
@@ -213,6 +213,33 @@
         }
 
         /* FOOTER */
+
+        footer{
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer nav{
+            float: none;
+            margin-bottom: 20px;
+        }
+
+        .footer-menu{
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-menu li a{
+            font-size: 14px;
+        }
+
+        .footer-menu li a:hover{
+            font-size: 14px;
+        }
+
+        .copy{
+            float: none;
+        }
         
 
     }
