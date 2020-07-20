@@ -433,7 +433,7 @@ footer nav{
 }
 
 .footer-menu li{
-    padding: 0 15px;
+    padding: 0 12px;
 }
 
 .footer-menu li:last-of-type{
@@ -457,6 +457,7 @@ footer nav{
 
 .copy{
     float: right;
+    padding-right: 20px;
 }
 
 .copy p{

@@ -27,7 +27,7 @@
         width: 32px;
         height: 32px;
         display: inline-block;
-        background-image: url(../img/open-menu.png);
+        background-image: url(../../img/open-menu.png);
         background-size: contain;
         background-repeat: no-repeat;
         cursor: pointer;
@@ -227,6 +227,7 @@
 
         .copy{
             float: none;
+            padding-right: 0;
         }
         
 
