@@ -84,7 +84,7 @@ header .container{
 }
 
 .banner .container{
-    background-image: url(../img/bg.jpg);
+    background-image: url(../../img/bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 50vw;
@@ -99,7 +99,7 @@ header .container{
     height: 40px;
     line-height: 40px;
     margin: 0 5px;
-    background-image: url(../img/box-text.png);
+    background-image: url(../../img/box-text.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     text-align: center;
@@ -167,17 +167,17 @@ header .container{
 .car-single .car-img{
     width: 100%;
     padding-top: 75%;
-    background-image: url(../img/carro1.jpg);
+    background-image: url(../../img/carro1.jpg);
     background-size: 100% 100%;
     border: 5px solid white;
 }
 
 .car-single:nth-of-type(2) .car-img{
-    background-image: url(../img/carro2.jpg);
+    background-image: url(../../img/carro2.jpg);
 }
 
 .car-single:nth-of-type(3) .car-img{
-    background-image: url(../img/carro3.jpg);
+    background-image: url(../../img/carro3.jpg);
     background-size: cover;
 }
 
@@ -314,13 +314,13 @@ header .container{
 }
 
 .prev{
-    background-image: url(../img/arrow-left.png);
+    background-image: url(../../img/arrow-left.png);
     background-size: 100% 100%;
     display: inline-block;
 }
 
 .next{
-    background-image: url(../img/arrow-right.png);
+    background-image: url(../../img/arrow-right.png);
     background-size: 100% 100%;
     display: inline-block;
 }
