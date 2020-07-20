@@ -60,12 +60,52 @@
         opacity: 1;
         z-index: 1;
     }
+
+    /* SHOWCASE */
+
+    .content-shop aside{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        float: none;
+    }
+
+    .content-shop aside h2{
+        text-align: center;
+    }
+
+    .model{
+        margin-bottom: 20px;
+    }
+
+    .showcase{
+        width: 90%;
+        padding: 0 20px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .car-single{
+        width: 50%;
+    }
 }
     
 
     
 
 @media screen and (max-width: 768px){
+
+    /* HEADER */
+
+    .mobile .menu{
+        transition: none;
+    }
+
+    /* SHOWCASE */
+
+    .car-single{
+        width: 100%;
+    }
 
     /* FOOTER */
 
