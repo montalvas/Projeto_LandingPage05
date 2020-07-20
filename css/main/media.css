@@ -78,241 +78,240 @@
     .depoiment{
         padding: 0 10px 0 30px;
     }
-
+}
     
 
-    @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
 
-        /* BANNER */
+    /* BANNER */
 
-        .banner .container{
-            background-size: 150%;
-            background-position: center right;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .box-text{
-            width: 157px;
-            height: 30px;
-            line-height: 30px;
-            margin: 10px 0;
-        }
-
-        .box-text h2{
-            font-size: 18px;
-        }
-
-        /* SPOTLIGHT */
-
-        .car-section{
-            justify-content: center;
-        }
-
-        .car-single{
-            width: 80%;
-            margin-bottom: 30px;
-        }
-
-        .titulo h2{
-            font-size: 24px;
-        }
-
-        /* STAND */
-
-        .stand{
-            padding: 0;
-            background-image: none;
-        }
-
-        .stand .container{
-            display: flex;
-            flex-direction: column;
-            align-items: none;
-        }
-
-        .services{
-            background-color: #242424;
-            width: 100%;
-            padding: 30px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .services h2{
-            font-size: 24px;
-            margin-bottom: 30px;
-        }
-
-        .services ul{
-            margin-bottom: 20px;
-            margin-left: 0;
-        }
-
-        .services li{
-            font-size: 16px;
-        }
-
-        .services li:hover{
-            font-size: 17px;
-        }
-
-        .depoiment{
-            background-color: #eb2d2d;
-            width: 100%;
-            padding: 30px 50px;
-            position: relative;
-        }
-
-        .depoiment h2{
-            text-align: center;
-            font-size: 24px;
-        }
-
-        .dep1 p, .dep2 p, .dep3 p{
-            font-size: 16px;
-            margin: 0 0 30px 0;
-        }
-        
-        .dep1 span, .dep2 span, .dep3 span{
-            font-size: 16px;
-            padding-right: 0;
-        }
-
-        /* CONTACT */
-
-        .contact form{
-            padding: 20px;
-        }
-
-        .field:nth-of-type(2){
-            display: block;
-        }
-
-        .field:nth-of-type(2) input{
-            width: 100%;
-        }
-
-        .field:nth-of-type(2) input:nth-child(1){
-            margin-bottom: 10px;
-            margin-right: 0;
-        }
-
-        /* FOOTER */
-
-        footer{
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        footer nav{
-            float: none;
-            margin-bottom: 20px;
-        }
-
-        .footer-menu{
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .footer-menu li a{
-            font-size: 14px;
-        }
-
-        .footer-menu li a:hover{
-            font-size: 14px;
-        }
-
-        .copy{
-            float: none;
-            padding-right: 0;
-        }
-        
-
-    }
-
-    @media screen and (max-width: 425px){
-
-        /* HEADER */
-
-        header{
-            margin-bottom: 0;
-        }
-
-        .logo{
-            width: 125px;
-            height: 60px;
-        }
-
-        .mobile .menu li{
-            width: 90px;
-        }
-
-        .menu li a{
-            font-size: 16px;
-        }
-
-        /* BANNER */
-
-        .banner .container{
-            background-size: 200%;
-            background-position: center right;
-            background-repeat: no-repeat;
-        }
-
-        .box-text{
-            width: 139px;
-            height: 25px;
-            line-height: 25px;
-            margin: 10px 0;
-        }
-
-        .box-text h2{
-            font-size: 16px;
-        }
-
-        /* SPOTLIGHT */
-
-        .spotlight{
-            padding: 50px 0 20px 0;
-        }
-
-        .titulo h2{
-            font-size: 20px;
-            padding: 0 10px;
-        }
-
-        .car-section{
-            padding: 0 10px;
-        }
-
-        .car-single{
-            width: 100%;
-        }
-
-        /* DEPOIMENT */
-
-        .depoiment{
-            padding: 30px 20px;
-        }
-
-        .dep1 span, .dep2 span, .dep3 span{
-            font-size: 14px;
-        }
-
-        /* CONTACT */
-
-        .contact{
-            padding: 50px 0 20px 0;
-        }
-
-        .field input, .field textarea{
-            font-size: 14px;
-        }
-        
+    .banner .container{
+        background-size: 150%;
+        background-position: center right;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
+    .box-text{
+        width: 157px;
+        height: 30px;
+        line-height: 30px;
+        margin: 10px 0;
+    }
+
+    .box-text h2{
+        font-size: 18px;
+    }
+
+    /* SPOTLIGHT */
+
+    .car-section{
+        justify-content: center;
+    }
+
+    .car-single{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .titulo h2{
+        font-size: 24px;
+    }
+
+    /* STAND */
+
+    .stand{
+        padding: 0;
+        background-image: none;
+    }
+
+    .stand .container{
+        display: flex;
+        flex-direction: column;
+        align-items: none;
+    }
+
+    .services{
+        background-color: #242424;
+        width: 100%;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services h2{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .services ul{
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .services li{
+        font-size: 16px;
+    }
+
+    .services li:hover{
+        font-size: 17px;
+    }
+
+    .depoiment{
+        background-color: #eb2d2d;
+        width: 100%;
+        padding: 30px 50px;
+        position: relative;
+    }
+
+    .depoiment h2{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .dep1 p, .dep2 p, .dep3 p{
+        font-size: 16px;
+        margin: 0 0 30px 0;
+    }
+    
+    .dep1 span, .dep2 span, .dep3 span{
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    /* CONTACT */
+
+    .contact form{
+        padding: 20px;
+    }
+
+    .field:nth-of-type(2){
+        display: block;
+    }
+
+    .field:nth-of-type(2) input{
+        width: 100%;
+    }
+
+    .field:nth-of-type(2) input:nth-child(1){
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+
+    footer{
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    footer nav{
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .footer-menu{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu li a{
+        font-size: 14px;
+    }
+
+    .footer-menu li a:hover{
+        font-size: 14px;
+    }
+
+    .copy{
+        float: none;
+        padding-right: 0;
+    }
+    
+
+}
+
+@media screen and (max-width: 425px){
+
+    /* HEADER */
+
+    header{
+        margin-bottom: 0;
+    }
+
+    .logo{
+        width: 125px;
+        height: 60px;
+    }
+
+    .mobile .menu li{
+        width: 90px;
+    }
+
+    .menu li a{
+        font-size: 16px;
+    }
+
+    /* BANNER */
+
+    .banner .container{
+        background-size: 200%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+
+    .box-text{
+        width: 139px;
+        height: 25px;
+        line-height: 25px;
+        margin: 10px 0;
+    }
+
+    .box-text h2{
+        font-size: 16px;
+    }
+
+    /* SPOTLIGHT */
+
+    .spotlight{
+        padding: 50px 0 20px 0;
+    }
+
+    .titulo h2{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .car-section{
+        padding: 0 10px;
+    }
+
+    .car-single{
+        width: 100%;
+    }
+
+    /* DEPOIMENT */
+
+    .depoiment{
+        padding: 30px 20px;
+    }
+
+    .dep1 span, .dep2 span, .dep3 span{
+        font-size: 14px;
+    }
+
+    /* CONTACT */
+
+    .contact{
+        padding: 50px 0 20px 0;
+    }
+
+    .field input, .field textarea{
+        font-size: 14px;
+    }
     
 }
+    
+    
