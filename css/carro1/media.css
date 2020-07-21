@@ -1,0 +1,188 @@
+/* RESPONSIVIDADE*/
+
+@media screen and (max-width: 1024px){
+
+    /* HEADER */
+
+    header .container{
+        align-items: unset;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        
+        display: inline-block;
+        position: relative;
+        text-align: right;
+    }
+
+    #chk{
+        display: none;
+    }
+
+    #menu{
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background-image: url(../../img/open-menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        position: relative;
+        left: -40px; /*Armengo feio, porém visualmente aceitável*/
+    }
+
+    .mobile .menu{
+        list-style: none;
+        position: absolute;
+        right: 0;
+        opacity: 0;
+        z-index: -1;
+        transition: all 0.6s;
+        text-align: center;
+    }
+
+    .mobile .menu li{
+        width: 120px;
+        background-color: rgb(240,240,240);
+        border-bottom: 1px solid rgb(100,100,100,0.7);
+        margin: 3px 0;
+    }
+
+    .menu li a:hover{
+        font-size: 20px;
+    }
+
+    #chk:checked ~ .menu{
+        opacity: 1;
+        z-index: 1;
+    }
+
+}
+    
+
+@media screen and (max-width: 768px){
+
+    /* SPOTLIGHT */
+
+    .car-section{
+        justify-content: center;
+    }
+
+    .car-single{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .titulo h2{
+        font-size: 24px;
+    }
+
+    /* CONTACT */
+
+    .contact form{
+        padding: 20px;
+    }
+
+    .field:nth-of-type(2){
+        display: block;
+    }
+
+    .field:nth-of-type(2) input{
+        width: 100%;
+    }
+
+    .field:nth-of-type(2) input:nth-child(1){
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+
+    footer{
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    footer nav{
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .footer-menu{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu li a{
+        font-size: 14px;
+    }
+
+    .footer-menu li a:hover{
+        font-size: 14px;
+    }
+
+    .copy{
+        float: none;
+        padding-right: 0;
+    }
+    
+
+}
+
+@media screen and (max-width: 425px){
+
+    /* HEADER */
+
+    header{
+        margin-bottom: 0;
+    }
+
+    .logo{
+        width: 125px;
+        height: 60px;
+    }
+
+    .mobile .menu li{
+        width: 90px;
+    }
+
+    .menu li a{
+        font-size: 16px;
+    }
+
+    /* SPOTLIGHT */
+
+    .spotlight{
+        padding: 50px 0 20px 0;
+    }
+
+    .titulo h2{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .car-section{
+        padding: 0 10px;
+    }
+
+    .car-single{
+        width: 100%;
+    }
+
+    /* CONTACT */
+
+    .contact{
+        padding: 50px 0 20px 0;
+    }
+
+    .field input, .field textarea{
+        font-size: 14px;
+    }
+    
+}
+    
+    

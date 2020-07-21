@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 95px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* MENU DESKTOP E MOBILE */
+
+.mobile{
+    display: none;
+}
+
+.desktop .menu{
+    display: flex;
+    list-style: none;
+}
+
+.desktop .menu li{
+    padding: 0 15px;
+}
+
+.desktop .menu li:last-of-type{
+    padding-right: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu li:first-of-type a{
+    color: red;
+}
+
+.menu li a:hover{
+    font-size: 22px;
+}
+
+
+
+/* SPOTLIGHT */
+
+.spotlight{
+    padding: 90px 0 50px 0;
+}
+
+.spotlight .container{
+    text-align: center;
+    max-width: 1000px;
+}
+
+/* SPOTLIGHT TITULO */
+
+.titulo{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+.titulo h2{
+    display: inline-block;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    padding: 0 20px;
+}
+
+/* CAR SECTION */
+
+.car-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-single{
+    width: 33.3%;
+}
+
+.car-single .car-img{
+    width: 100%;
+    padding-top: 75%;
+    background-image: url(../../img/carro1.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+
+.car-single:nth-of-type(2) .car-img{
+    background-image: url(../../img/carro2.jpg);
+}
+
+.car-single:nth-of-type(3) .car-img{
+    background-image: url(../../img/carro3.jpg);
+    background-size: cover;
+}
+
+.info h2{
+    font-size: 22px;
+}
+
+.info p{
+    color: rgb(100,100,100);
+    padding-bottom: 20px;
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(230, 16, 16);
+    border-bottom: 2px solid rgb(134, 24, 24);
+    padding: 5px 10px; 
+    color: white;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.button:hover{
+    background-color: rgb(190, 20, 20);
+    border-bottom: 2px solid rgb(109, 20, 20);
+}
+
+/* CONTACT */
+
+.contact{
+    width: 100%;
+    padding: 90px 0 50px 0;
+}
+
+.contact .container{
+    text-align: center;
+    max-width: 800px;
+}
+
+.contact form{
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+.field input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(230,230,230);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field:nth-of-type(2){
+    display: flex;
+}
+
+.field:nth-of-type(2) input{
+    width: 49.5%;
+}
+
+.field:nth-of-type(2) input:nth-of-type(1){
+    margin-right: 10px;
+}
+
+
+::placeholder { 
+    color: rgb(200,200,200);
+    opacity: 1; /*firefox*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.field textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(230,230,230);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field input:focus, .field textarea:focus{
+    outline: 0;
+}
+
+.contact .button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0;
+    background-color: rgb(230, 16, 16);
+    color: white;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 2px solid rgb(134, 24, 24);
+    box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: #242424;
+    padding: 40px 0;
+}
+
+footer nav{
+    float: left;
+}
+
+.footer-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu li{
+    padding: 0 12px;
+}
+
+.footer-menu li:last-of-type{
+    padding-right: 0;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-menu li:first-of-type a{
+    color: red;
+}
+
+.footer-menu li a:hover{
+    font-size: 17px;
+}
+
+.copy{
+    float: right;
+    padding-right: 20px;
+}
+
+.copy p{
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+

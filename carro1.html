@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto 05</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/carro1/style.css">
+        <link rel="stylesheet" href="css/carro1/media.css">
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/Logo.png" alt="Logo da horizon">
+                </div>
+
+                <nav class="desktop">
+                    <ul class="menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="venda.html">venda</a></li>
+                        <li><a href="#">eventos</a></li>
+                        <li><a href="#">sobre nós</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>
+                </nav><!--menu desktop-->
+
+                <nav class="mobile">
+                    <input type="checkbox" id="chk">
+                    <label id="menu" for="chk"></label>
+
+                    <ul class="menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="venda.html">venda</a></li>
+                        <li><a href="#">eventos</a></li>
+                        <li><a href="#">sobre nós</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>   
+                </nav><!--menu mobile-->
+
+            </div><!--container-->
+        </header><!--cabeçalho-->
+
+        <section class="carro">
+            <div class="container">
+                <div class="img">
+                    <input type="checkbox" name="galeria" id="chk1">
+                    <input type="checkbox" name="galeria" id="chk2">
+                    <input type="checkbox" name="galeria" id="chk3">
+                    <input type="checkbox" name="galeria" id="chk4">
+                    <input type="checkbox" name="galeria" id="chk5">
+                    <div class="img-principal"></div>
+                    <div class="galery">
+                        <div class="wraper">
+                            <label for="chk1"></label>
+                            <label for="chk2"></label>
+                            <label for="chk3"></label>
+                            <label for="chk4"></label>
+                            <label for="chk5"></label>
+                            <div class="clear"></div><!--clear-->
+                        </div><!--wraper-->
+                    </div><!--galery-->
+                </div><!--image-->
+
+                <div class="info-carro">
+                    <h2>Lamborghini Aventador</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur qui, nobis, iste dolorum atque accusantium dignissimos cupiditate delectus consequatur explicabo ratione nemo.</p>
+
+                    <h3>R$ 3.000.000,00</h3>
+
+                    <a class="button" href="#contato">Contato</a>
+                </div><!--info-->
+
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </section><!--carro-->
+
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="titulo">
+                    <div class="line"></div>
+                    <h2>entre em contato</h2>
+                </div><!--titulo-->
+
+                <form>
+                    <div class="field">
+                        <input type="text" name="nome" placeholder="nome" required>
+                    </div><!--field-->
+
+                    <div class="field">
+                        <input type="email" name="email" placeholder="email" required>
+
+                        <input type="tel" name="telefone" placeholder="telefone" required>
+                    </div><!--field-->
+
+                    <div class="field">
+                        <textarea placeholder="mensagem"></textarea>
+                    </div><!--field-->
+
+                    <input type="submit" value="enviar" class="button">
+                </form>
+            </div><!--container-->
+        </section><!--contact-->
+
+        <section class="spotlight">
+            <div class="container">
+                <div class="titulo">
+                    <div class="line"></div>
+                    <h2>Veículos em destaque</h2>
+                </div><!--titulo-->
+                
+                <div class="car-section">
+                    <div class="car-single">
+                        <div class="car-img"></div>
+                        <div class="info">
+                            <h2>Lamborghini Aventador</h2>
+                            <p>6.5, V12, Premium, 350 km/h (217 mph)</p>
+                            <a class="button" href="#">Mais detalhes</a>
+                        </div>
+                    </div><!--car-single-->
+
+                    <div class="car-single">
+                        <div class="car-img"></div>
+                        <div class="info">
+                            <h2>BMW E63 650i</h2>
+                            <p>V8, Petrol, 250 km/h (155 mph)</p>
+                            <a class="button" href="#">Mais detalhes</a>
+                        </div>
+                    </div><!--car-single-->
+
+                    <div class="car-single">
+                        <div class="car-img"></div>
+                        <div class="info">
+                            <h2>Mercedez Benz classe S</h2>
+                            <p>Motor biturbo V8 AMG de 4,0 litros</p>
+                            <a class="button" href="#">Mais detalhes</a>
+                        </div>
+                    </div><!--car-single-->
+
+                </div><!--car section-->
+            </div><!--container-->
+        </section><!--spotlight-->
+
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul class="footer-menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="venda.html">venda</a></li>
+                        <li><a href="#">eventos</a></li>
+                        <li><a href="#">sobre nós</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>
+                </nav><!--menu footer-->
+
+                <div class="copy">
+                    <p>Todos os direitos reservados a <strong>Horizon Veículos</strong></p>
+                </div><!---copy-->
+
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </footer>
+    </body>
+</html>
+
