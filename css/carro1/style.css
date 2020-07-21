@@ -99,7 +99,7 @@ header .container{
 .img-principal{
     width: 100%;
     padding-top: 60%;
-    background-image: url(../../img/carro1.jpg);
+    background-image: url(../../img/carro1/default.jpg);
     background-size: cover;
 }
 
@@ -109,16 +109,74 @@ header .container{
 }
 
 .wraper{
-    width: 150%;
+    width: 200%;
 }
 
-.wraper label{
-    width: calc(30% * 100 / 150);
-    padding-top: calc((30% * 100 / 150) * 0.5);
+.mini{
+    width: calc(33.3% * 0.5);
+    padding-top: calc((33.3% * 0.5) * 0.7);
     background-color: teal;
     border: 3px solid white;
     float: left;
+    cursor: pointer;
 }
+
+.mini:nth-of-type(1){
+    background-image: url(../../img/carro1/default.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(2){
+    background-image: url(../../img/carro1/img1.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(3){
+    background-image: url(../../img/carro1/img2.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(4){
+    background-image: url(../../img/carro1/img3.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(5){
+    background-image: url(../../img/carro1/img4.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(6){
+    background-image: url(../../img/carro1/img5.jpg);
+    background-size: 100% 100%;
+}
+
+#chk1:checked ~ .img-principal{
+    background-image: url(../../img/carro1/default.jpg);
+}
+
+#chk2:checked ~ .img-principal{
+    background-image: url(../../img/carro1/img1.jpg);
+}
+
+#chk3:checked ~ .img-principal{
+    background-image: url(../../img/carro1/img2.jpg);
+}
+
+#chk4:checked ~ .img-principal{
+    background-image: url(../../img/carro1/img3.jpg);
+}
+
+#chk5:checked ~ .img-principal{
+    background-image: url(../../img/carro1/img4.jpg);
+}
+
+#chk6:checked ~ .img-principal{
+    background-image: url(../../img/carro1/img5.jpg);
+}
+
+
+/* INFO CARRO */
 
 .info-carro{
     width: 30%;
@@ -130,6 +188,7 @@ header .container{
     font-size: 32px;
     font-weight: normal;
     font-style: italic;
+    text-transform: uppercase;
     margin-bottom: 20px;
     color: rgb(202, 15, 15);
     text-shadow: 1px 1px black;
@@ -150,7 +209,7 @@ header .container{
     color: #444;
 }
 
-/* TITULO */
+/***** TITULO *****/
 
 .titulo{
     width: 100%;
