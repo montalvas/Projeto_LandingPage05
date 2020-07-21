@@ -83,10 +83,6 @@
 
     /* CONTACT */
 
-    .contact form{
-        padding: 20px;
-    }
-
     .field:nth-of-type(2){
         display: block;
     }
