@@ -69,9 +69,6 @@ header .container{
 
 .menu li:first-of-type a{
     color: red;
-}
-
-.menu li a:hover{
     font-size: 22px;
 }
 
@@ -450,9 +447,6 @@ footer nav{
 
 .footer-menu li:first-of-type a{
     color: red;
-}
-
-.footer-menu li a:hover{
     font-size: 17px;
 }
 

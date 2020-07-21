@@ -221,8 +221,8 @@
         font-size: 14px;
     }
 
-    .footer-menu li a:hover{
-        font-size: 14px;
+    .footer-menu li a:first-of-type{
+        font-size: 15px;
     }
 
     .copy{
@@ -252,6 +252,10 @@
 
     .menu li a{
         font-size: 16px;
+    }
+
+    .menu li a:first-of-type{
+        font-size: 17px;
     }
 
     /* BANNER */
