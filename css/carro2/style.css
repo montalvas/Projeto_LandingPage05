@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.logo{
+    width: 200px;
+    height: 95px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/* MENU DESKTOP E MOBILE */
+
+.mobile{
+    display: none;
+}
+
+.desktop .menu{
+    display: flex;
+    list-style: none;
+}
+
+.desktop .menu li{
+    padding: 0 15px;
+}
+
+.desktop .menu li:last-of-type{
+    padding-right: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu li:nth-of-type(2) a{
+    color: red;
+    font-size: 22px;
+}
+
+/* CARRO */
+
+.carro{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.carro .container{
+    max-width: 1200px;
+    display: flex;
+}
+
+.img{
+    width: 70%;
+    padding: 0 10px;
+}
+
+.img input{
+    display: none;
+}
+
+.img-principal{
+    width: 100%;
+    padding-top: 60%;
+    background-image: url(../../img/carro2/default.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.galery{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.wraper{
+    width: 200%;
+}
+
+.mini{
+    width: calc(33.3% * 0.5);
+    padding-top: calc((33.3% * 0.5) * 0.7);
+    background-color: teal;
+    border: 3px solid white;
+    float: left;
+    cursor: pointer;
+}
+
+.mini:nth-of-type(1){
+    background-image: url(../../img/carro2/default.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(2){
+    background-image: url(../../img/carro2/img1.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(3){
+    background-image: url(../../img/carro2/img2.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(4){
+    background-image: url(../../img/carro2/img3.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(5){
+    background-image: url(../../img/carro2/img4.jpg);
+    background-size: 100% 100%;
+}
+
+.mini:nth-of-type(6){
+    background-image: url(../../img/carro2/img5.jpg);
+    background-size: 100% 100%;
+}
+
+#chk1:checked ~ .img-principal{
+    background-image: url(../../img/carro2/default.jpg);
+}
+
+#chk2:checked ~ .img-principal{
+    background-image: url(../../img/carro2/img1.jpg);
+}
+
+#chk3:checked ~ .img-principal{
+    background-image: url(../../img/carro2/img2.jpg);
+}
+
+#chk4:checked ~ .img-principal{
+    background-image: url(../../img/carro2/img3.jpg);
+}
+
+#chk5:checked ~ .img-principal{
+    background-image: url(../../img/carro2/img4.jpg);
+}
+
+#chk6:checked ~ .img-principal{
+    background-image: url(../../img/carro2/img5.jpg);
+}
+
+
+/* INFO CARRO */
+
+.info-carro{
+    width: 30%;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.info-carro h2{
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgb(202, 15, 15);
+    text-shadow: 1px 1px black;
+}
+
+.info-carro p{
+    text-indent: 8px;
+    font-size: 16px;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-carro h3{
+    font-size: 24px;
+    margin: 10px 30px 30px 0;
+    text-align: right;
+    color: #444;
+}
+
+/***** TITULO *****/
+
+.titulo{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+.titulo h2{
+    display: inline-block;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    padding: 0 20px;
+}
+
+/* CONTACT */
+
+.contact{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.contact .container{
+    text-align: center;
+    max-width: 1000px;
+}
+
+.contact form{
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.field{
+    margin-bottom: 10px;
+}
+
+.field input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(230,230,230);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field:nth-of-type(2){
+    display: flex;
+}
+
+.field:nth-of-type(2) input{
+    width: 49.5%;
+}
+
+.field:nth-of-type(2) input:nth-of-type(1){
+    margin-right: 10px;
+}
+
+
+::placeholder { 
+    color: rgb(200,200,200);
+    opacity: 1; /*firefox*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.field textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(230,230,230);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field input:focus, .field textarea:focus{
+    outline: 0;
+}
+
+.contact .button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0;
+    background-color: rgb(230, 16, 16);
+    color: white;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 2px solid rgb(134, 24, 24);
+    box-shadow: 3px 2px 2px 0px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* SPOTLIGHT */
+
+.spotlight{
+    padding: 50px 0;
+}
+
+.spotlight .container{
+    text-align: center;
+    max-width: 1000px;
+}
+
+/* CAR SECTION */
+
+.car-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.car-single{
+    width: 33.3%;
+}
+
+.car-single .car-img{
+    width: 100%;
+    padding-top: 75%;
+    background-image: url(../../img/carro1.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+
+.car-single:nth-of-type(2) .car-img{
+    background-image: url(../../img/carro2.jpg);
+}
+
+.car-single:nth-of-type(3) .car-img{
+    background-image: url(../../img/carro3.jpg);
+    background-size: cover;
+}
+
+.info h2{
+    font-size: 22px;
+}
+
+.info p{
+    color: rgb(100,100,100);
+    padding-bottom: 20px;
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(230, 16, 16);
+    border-bottom: 2px solid rgb(134, 24, 24);
+    padding: 5px 10px; 
+    color: white;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.button:hover{
+    background-color: rgb(190, 20, 20);
+    border-bottom: 2px solid rgb(109, 20, 20);
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: #242424;
+    padding: 40px 0;
+}
+
+footer nav{
+    float: left;
+}
+
+.footer-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu li{
+    padding: 0 12px;
+}
+
+.footer-menu li:last-of-type{
+    padding-right: 0;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-menu li:nth-of-type(2) a{
+    color: red;
+    font-size: 17px;
+}
+
+.copy{
+    float: right;
+    padding-right: 20px;
+}
+
+.copy p{
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
