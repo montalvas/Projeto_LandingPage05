@@ -68,7 +68,7 @@ header .container{
     text-transform: uppercase;
 }
 
-.menu li:nth-of-type(2) a{
+.menu li:nth-of-type(3) a{
     color: red;
     font-size: 22px;
 }
@@ -116,6 +116,7 @@ header .container{
 
 .content-shop{
     width: 100%;
+    padding: 40px 0;
 }
 
 /* ASIDE */
@@ -247,43 +248,42 @@ header .container{
 .car-single .car-img{
     width: 100%;
     padding-top: 75%;
-    background-image: url(../../img/carro1.jpg);
-    background-size: 100% 100%;
+    background-image: url(../../img/evento-img.jpg);
+    background-size: cover;
+    background-position: center;
     border: 5px solid white;
 }
 
 .car-single:nth-of-type(2) .car-img{
-    background-image: url(../../img/carro2.jpg);
+    background-image: url(../../img/evento-img.jpg);
 }
 
 .car-single:nth-of-type(3) .car-img{
-    background-image: url(../../img/carro3.jpg);
-    background-size: cover;
+    background-image: url(../../img/evento-img.jpg);
 }
 
 .car-single:nth-of-type(4) .car-img{
-    background-image: url(../../img/carro4.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url(../../img/evento-img.jpg);
 }
 
 .car-single:nth-of-type(5) .car-img{
-    background-image: url(../../img/carro5.jpg);
+    background-image: url(../../img/evento-img.jpg);
 }
 
 .car-single:nth-of-type(6) .car-img{
-    background-image: url(../../img/carro6.jpg);
-    background-size: cover;
+    background-image: url(../../img/evento-img.jpg);
 }
 
 .info h2{
     font-size: 20px;
+    font-style: italic;
 }
 
 .info p{
     color: rgb(100,100,100);
     padding-bottom: 20px;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 .button{
@@ -337,7 +337,7 @@ footer nav{
     text-transform: uppercase;
 }
 
-.footer-menu li:nth-of-type(2) a{
+.footer-menu li:nth-of-type(3) a{
     font-size: 17px;
     color: red;
 }

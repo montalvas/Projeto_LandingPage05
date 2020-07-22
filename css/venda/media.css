@@ -99,6 +99,10 @@
 
     /* SHOWCASE */
 
+    .content-shop{
+        padding: 20px 0;
+    }
+
     .car-single{
         width: 100%;
     }
