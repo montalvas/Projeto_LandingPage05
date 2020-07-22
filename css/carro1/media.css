@@ -207,7 +207,14 @@
     .info-carro h3{
         font-size: 20px;
         margin: 20px;
-    }    
+    }
+    
+    /* TÍTULO */
+
+    .titulo h2{
+        top: -15px;
+    }
+    
 
     /* SPOTLIGHT */
 
