@@ -68,11 +68,8 @@ header .container{
     text-transform: uppercase;
 }
 
-.menu li:first-of-type a{
+.menu li:nth-of-type(2) a{
     color: red;
-}
-
-.menu li a:hover{
     font-size: 22px;
 }
 
@@ -307,13 +304,6 @@ header .container{
     border-bottom: 2px solid rgb(109, 20, 20);
 }
 
-  
-  
-  
-
-
-
-
 /* FOOTER */
 
 footer{
@@ -347,12 +337,9 @@ footer nav{
     text-transform: uppercase;
 }
 
-.footer-menu li:first-of-type a{
-    color: red;
-}
-
-.footer-menu li a:hover{
+.footer-menu li:nth-of-type(2) a{
     font-size: 17px;
+    color: red;
 }
 
 .copy{
