@@ -122,6 +122,10 @@
         width: 100%;
     }
 
+    .event-single .event-img{
+        border: none;
+    }
+
     /* FOOTER */
 
     footer{
@@ -180,12 +184,16 @@
         font-size: 17px;
     }
 
-    /* SHOP */
+    /* EVENT */
 
     .titulo h2{
         font-size: 20px;
         padding: 0 10px;
         top: -15px;
+    }
+
+    .event-list{
+        padding: 0;
     }
 
     .event-section{
@@ -194,6 +202,12 @@
 
     .event-single{
         width: 100%;
+    }
+
+    .info h2{
+        font-size: 24px;
+        font-style: italic;
+        padding: 10px 0 0 0;
     }
   
     

@@ -69,10 +69,25 @@
         font-size: 20px;
     }
 
+    /* SERVICES */
+
+    .services{
+        padding-left: 10px;
+    }
+
+    .services li{
+        font-size: 16px;
+    }
+
+
     /* DEPOIMENT */
 
     .depoiment{
         padding: 0 10px 0 30px;
+    }
+
+    .dep1 p, .dep2 p, .dep3 p{
+        font-size: 16px;
     }
 }
     
@@ -139,36 +154,26 @@
 
     .services h2{
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .services ul{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         margin-left: 0;
     }
 
-    .services li{
-        font-size: 16px;
-    }
-
-    .services li:hover{
-        font-size: 17px;
-    }
-
     .depoiment{
-        background-color: #eb2d2d;
+        background-color: #e02d2d;
         width: 100%;
         padding: 30px 50px;
         position: relative;
     }
 
     .depoiment h2{
-        text-align: center;
         font-size: 24px;
     }
 
     .dep1 p, .dep2 p, .dep3 p{
-        font-size: 16px;
         margin: 0 0 30px 0;
     }
     
@@ -293,10 +298,28 @@
         width: 100%;
     }
 
+    /* SERVICES */
+
+    .services h2{
+        font-size: 22px;
+    }
+
+    .services li{
+        font-size: 14px;
+    }
+
     /* DEPOIMENT */
 
     .depoiment{
         padding: 30px 20px;
+    }
+
+    .depoiment h2{
+        font-size: 22px;
+    }
+
+    .dep1 p, .dep2 p, .dep3 p{
+        font-size: 14px;
     }
 
     .dep1 span, .dep2 span, .dep3 span{
