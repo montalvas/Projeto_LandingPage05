@@ -78,21 +78,22 @@ header .container{
 .carro{
     width: 100%;
     padding: 50px 0;
+    margin: 0 auto;
 }
 
 .carro .titulo{
     text-align: center;
-    max-width: 1200px;
+    max-width: 1280px;
 }
 
 .carro .container{
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
 }
 
 .link{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 20px auto;
     font-size: 18px;
     padding: 0 20px;
@@ -174,7 +175,7 @@ header .container{
 
 .mini:nth-of-type(6){
     background-image: url(../../img/carro3/img5.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 #chk1:checked ~ .img-principal{
