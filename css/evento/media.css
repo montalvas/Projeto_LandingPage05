@@ -59,29 +59,29 @@
 
     /* SHOWCASE */
 
-    .content-shop aside{
+    .content-event aside{
         width: 100%;
         margin: 0 auto;
         padding: 0 20px;
         float: none;
     }
 
-    .content-shop aside h2{
+    .content-event aside h2{
         text-align: center;
     }
 
-    .model{
+    .month{
         margin-bottom: 20px;
     }
 
-    .showcase{
+    .event-list{
         width: 90%;
         padding: 0 20px;
         float: none;
         margin: 0 auto;
     }
 
-    .car-single{
+    .event-single{
         width: 50%;
     }
 }
@@ -97,13 +97,28 @@
         transition: none;
     }
 
-    /* SHOWCASE */
+    /* TÍTULO */
 
-    .content-shop{
+    .titulo h2{
+        font-size: 24px;
+    }
+
+    /* EVENT */
+
+    .content-event{
         padding: 20px 0;
     }
 
-    .car-single{
+    .content-event aside h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .month-field label{
+        font-size: 14px;
+    }
+
+    .event-single{
         width: 100%;
     }
 
@@ -173,11 +188,11 @@
         top: -15px;
     }
 
-    .car-section{
+    .event-section{
         padding: 0 10px;
     }
 
-    .car-single{
+    .event-single{
         width: 100%;
     }
   

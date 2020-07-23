@@ -73,14 +73,14 @@ header .container{
     font-size: 22px;
 }
 
-/* SHOP */
+/* EVENT */
 
-.shop{
+.event{
     width: 100%;
     padding: 50px 0;
 }
 
-.shop .container{
+.event .container{
     max-width: 1200px;
 }
 
@@ -114,96 +114,48 @@ header .container{
 
 /* CONTENT SHOP */
 
-.content-shop{
+.content-event{
     width: 100%;
     padding: 40px 0;
 }
 
 /* ASIDE */
 
-.content-shop aside{
+.content-event aside{
     width: 30%;
     max-width: 300px;
     padding: 0 10px;
     float: left;
 }
 
-.content-shop aside h2{
+.content-event aside h2{
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
-.price{
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.price p:nth-of-type(1){
-    float: left;
-}
-
-.price p:nth-of-type(2){
-    float: right;
-}
-
-.slider { /*Teste de slider personalizado w3schools*/
-    -webkit-appearance: none;
-    width: 100%;
-    height: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-  
-.slider:hover {
-    opacity: 1;
-}
-  
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #ce332e;
-    cursor: pointer;
-}
-  
-.slider::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #ce332e;
-    cursor: pointer;
-}
-
-.model{
+.month{
     width: 100%;
 }
 
-.model-field{
+.month-field{
     margin-bottom: 10px;
 }
   
-.model-field input{
+.month-field input{
     display: none;
 }
 
-.model-field label{
+.month-field label{
     font-size: 16px;
     font-family: 'Open Sans';
 }
 
-.model-field input + label{
+.month-field input + label{
     display: block;
 }
 
-.model-field input + label:before{ /*Teste de checkbox personalizada*/
+.month-field input + label:before{ /*Teste de checkbox personalizada*/
     content: "\2714";
     border: 0.1em solid #000;
     border-radius: 0.2em;
@@ -217,35 +169,35 @@ header .container{
     transition: .3s;
 }
 
-.model-field input:checked + label:before{ 
+.month-field input:checked + label:before{ 
     background-color: rgb(221, 36, 36);
     color: #fff;
 }
 
-.model-field input:checked + label{
+.month-field input:checked + label{
     font-weight: bold;
 }
 
 /* SHOWCASE */
 
-.showcase{
+.event-list{
     width: 70%;
     padding: 0 10px;
     float: right;
 }
 
-.car-section{
+.event-section{
     display: flex;
     flex-wrap: wrap;
 }
 
-.car-single{
+.event-single{
     width: 33.3%;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.car-single .car-img{
+.event-single .event-img{
     width: 100%;
     padding-top: 75%;
     background-image: url(../../img/evento-img.jpg);
@@ -254,23 +206,23 @@ header .container{
     border: 5px solid white;
 }
 
-.car-single:nth-of-type(2) .car-img{
+.event-single:nth-of-type(2) .event-img{
     background-image: url(../../img/evento-img.jpg);
 }
 
-.car-single:nth-of-type(3) .car-img{
+.event-single:nth-of-type(3) .event-img{
     background-image: url(../../img/evento-img.jpg);
 }
 
-.car-single:nth-of-type(4) .car-img{
+.event-single:nth-of-type(4) .event-img{
     background-image: url(../../img/evento-img.jpg);
 }
 
-.car-single:nth-of-type(5) .car-img{
+.event-single:nth-of-type(5) .event-img{
     background-image: url(../../img/evento-img.jpg);
 }
 
-.car-single:nth-of-type(6) .car-img{
+.event-single:nth-of-type(6) .event-img{
     background-image: url(../../img/evento-img.jpg);
 }
 

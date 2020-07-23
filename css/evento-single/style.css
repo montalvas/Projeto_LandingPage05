@@ -130,11 +130,16 @@ header .container{
     background-size: cover;
 }
 
+.content-wraper{
+    padding: 0 20px;
+}
+
 .content-evento h2{
     margin: 20px 0;
     font-weight: normal;
-    font-style: italic;
+    text-align: center;
     font-size: 28px;
+    color: rgb(185, 11, 11);
 }
 
 .content-evento p{
@@ -142,7 +147,7 @@ header .container{
     text-indent: 8px;
     font-style: italic;
     font-family: 'Open Sans';
-    margin: 8px 0;
+    margin: 10px 0;
 }
 
 .content-evento h3{
