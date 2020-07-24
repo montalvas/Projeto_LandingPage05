@@ -222,15 +222,11 @@ header .container{
 
 .services{
     width: 50%;
-    padding-left: 30px;
-    display: grid;
-    align-content: center;
-    grid-template-columns: 250px 100px;
+    display: block;
+    text-align: center;
 }
 
 .services h2{
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
     font-size: 28px;
     font-weight: normal;
     font-style: italic;
@@ -239,11 +235,14 @@ header .container{
     text-align: center;
 }
 
+.services-list{
+    display: inline-block;
+}
+
 .services ul{
-    grid-row: 2 / 4;
-    grid-column: 1 / 2;
     margin-left: 20px;
     list-style-position: inside;
+    text-align: left;
 }
 
 .services li{
@@ -251,15 +250,6 @@ header .container{
     font-size: 18px;
     margin: 5px 0;
     font-family: 'Open Sans', sans-serif;
-}
-
-.services .button{
-    grid-row: 3 / 3;
-    grid-column: 2 / 2;
-    text-align: center;
-    box-shadow: none;
-    width: 100px;
-    padding: 0;
 }
 
 /* DEPOIMENT */
