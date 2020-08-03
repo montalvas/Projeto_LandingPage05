@@ -6,7 +6,7 @@
  * Página principal, página de venda, página de eventos, sobre e contato.
  * Responsividade.
  * Slider em CSS na página principal.
- * Filtros (range e checkbox) na pa´gina de venda.
+ * Filtros (range e checkbox) na página de venda.
  * Página individual para os veículos principais, com breadcrumbs e um slider de fotos do veículo.
  * Página individual para os eventos.
  ---
